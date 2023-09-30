@@ -1,13 +1,11 @@
-package com.tutor;
-
 public class belajar {
     public static void main(String[] args) {
         // Main Program
-        int t; // Variabel
-        t = 5; // Assign nilai ke variabel t
+        int num; // Variabel
+        num = 5; // Assign nilai ke variabel t
         int[] arr = {1, 2, 3, 4, 5}; // Array satu dimensi
 
-        for (int i = 0; i < t; i++) { // For loop
+        for (int i = 0; i < num; i++) { // For loop
             if (arr[i] % 2 == 0) { // If statement
                 System.out.println(arr[i] + " adalah angka genap."); // Output
             }
